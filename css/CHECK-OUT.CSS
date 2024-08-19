@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+
+
+.card.box2 {
+    width: 450px;
+    height: 580px;
+    background-color: #ffffff;
+    border-radius: 0;
+    display: none;
+  
+}
+
+
+
+
+
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    box-shadow: none;
+    height: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px 0px;
+    letter-spacing: 1.5px;
+    border-radius: 0
+}
+
+.inputWithIcon {
+    position: relative;
+}
+
+img {
+  
+    width: 50px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.inputWithIcon span {
+    position: absolute;
+    right: 0px;
+    bottom: 9px;
+    color: #57c97d;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px
+}
+
+
+
+
+
+form {
+    font-size: 14px
+}
+
+
+form .btn.btn-primary:hover {
+    background-color: #05cf48
+}
+
+@media (max-width:750px) {
+    .container {
+        padding: 10px;
+        width: 100%
+    }
+
+    .text-green {
+        font-size: 14px
+    }
+
+    
+    .card.box2 {
+        width: 100%
+    }
+
+    .nav.nav-tabs .nav-item .nav-link {
+        font-size: 12px
+    }
+}
+
